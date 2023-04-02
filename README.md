@@ -38,14 +38,14 @@ I exmained potential issues and inconsistencies.
 3. As indicated in the "data dictionary" step_type is key for whether the test item was a question or a stopwatch, so not exactly sure what bark means.
 4. loop_number contains negative number, which does not make sense.
 
-##problems for reviews
+## problems for reviews
 1. rating has NULL value, but a user was supposed to give a rating between 1 to 9, so it does not make sense to record a rating that an user have not given a rating.
 
-“problems” for site_activities
+## problems for site_activities
 1. member_id contains NULL value
 2. category_id contains NULL value
 
-##problems for users
+## problems for users
 1. According to "data dictionary", membership_id is an Unique ID, but in the table, membership_id contains many duplicates.
 2. utc_correction contains mixed of NULL and #N/A value.
 3. city, state, zip and country all contain mixed of NULL and N/A value.
